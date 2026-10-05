@@ -1,16 +1,16 @@
 {
-    "version": "0.15.3",
+    "version": "0.28.10",
     "description": "AI-native version control system",
     "homepage": "https://heddle.sh/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HeddleCo/heddle/releases/download/v0.15.3/heddle-v0.15.3-x86_64-pc-windows-msvc.zip",
-            "hash": "74e5e711aaad038e8b52c51f81b8b9af1cab095751730ddb24cfd5d013542250",
-            "bin": "heddle-v0.15.3-x86_64-pc-windows-msvc\\heddle.exe",
+            "url": "https://github.com/HeddleCo/heddle/releases/download/v0.28.10/heddle-v0.28.10-x86_64-pc-windows-msvc.zip",
+            "hash": "2c9e59ddf5e22a12e2a9080f088236f4a1299df314cda9179676839190e8cbaa",
+            "bin": "heddle-v0.28.10-x86_64-pc-windows-msvc\\heddle.exe",
             "shortcuts": [
                 [
-                    "heddle-v0.15.3-x86_64-pc-windows-msvc\\heddle.exe",
+                    "heddle-v0.28.10-x86_64-pc-windows-msvc\\heddle.exe",
                     "heddle"
                 ]
             ]
@@ -39,7 +39,7 @@
     "notes": [
         "Release archives are signed with cosign (keyless / Sigstore).",
         "Verify before trusting a binary:",
-        "  cosign verify-blob --certificate-identity-regexp 'https://github.com/HeddleCo/heddle/.+' --certificate-oidc-issuer https://token.actions.githubusercontent.com --signature heddle-v0.15.3-x86_64-pc-windows-msvc.zip.sig --certificate heddle-v0.15.3-x86_64-pc-windows-msvc.zip.pem heddle-v0.15.3-x86_64-pc-windows-msvc.zip",
+        "  cosign verify-blob --certificate-identity-regexp 'https://github.com/HeddleCo/heddle/.+' --certificate-oidc-issuer https://token.actions.githubusercontent.com --signature heddle-v0.28.10-x86_64-pc-windows-msvc.zip.sig --certificate heddle-v0.28.10-x86_64-pc-windows-msvc.zip.pem heddle-v0.28.10-x86_64-pc-windows-msvc.zip",
         "The .sig and .pem are published alongside the archive on the GitHub Release."
     ]
 }
